@@ -1,0 +1,56 @@
+.unChosen {
+ 	background-color: #d32f91b4;
+}
+
+.chosen{
+	background-color: #F834A9;
+}
+
+.allButtons{
+	display: flex;
+	justify-content: center;
+}
+
+.interestButton-list{
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.interestButton{
+	padding: 1rem 2rem;
+	margin: 0.5rem;
+	border: none;
+	border-radius: 3px;
+}
+
+.interestButton:hover{
+	cursor: pointer;
+	background-color: #7450bd;
+	color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.interestButton{
+		padding: 0.8rem 1.5rem;
+		margin: 0.5rem;
+		border: none;
+		border-radius: 3px;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+
+	.interestButton{
+		padding: 0.6rem 1rem;
+		margin: 0.6rem;
+		border: none;
+		border-radius: 3px;
+		font-size: 1.1em;
+	}
+}

@@ -1,0 +1,165 @@
+.newEventForm .input-layout > label{
+    display: contents;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+p{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.position-button{
+    display: grid;
+    justify-content: flex-end;
+}
+
+.create-button{
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    color:  #fff;
+}
+
+.create-button:hover{
+    cursor: pointer;
+    background-color:#7c42f1;
+    color: #fff;
+}
+
+.newEventForm .input-layout > label > input{
+    min-width: 200px;
+}
+
+.newEventForm{
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.checkPhoto{
+    border: solid 4px white;
+}
+
+.save{
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1.5rem;
+    text-transform:uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.save:hover{
+    cursor: pointer;
+    background-color: #7c42f1;
+    color: #fff;
+}
+
+input{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+}
+
+#interest-checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+#input-check{
+    cursor: pointer;
+}
+
+textarea{
+    min-width: 259px;
+    min-height: 80px;
+}
+
+span{
+    padding: 2px 25px 7px 25px;
+}
+
+.body{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body{
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.check{
+    background-color: #27242c;
+    padding: 1rem 00.5rem 1rem 0.5rem;
+    margin: 0rem 0 1rem 0;
+    border-radius: 5px;
+}
+
+.newEventForm .check > label{
+    display: contents;
+    color: #fff;
+    display: grid;
+}
+
+.input-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newEventForm{
+    max-width: 400px;
+}
+
+.invalidName{
+    border: solid 2px red;
+}
+.invalidDesc{
+    border: solid 2px red;
+}
+.invalidLocation{
+    border: solid 2px red;
+}
+.invalidDate{
+    border: solid 2px red;
+}
+.invalidTime{
+    border: solid 2px red;
+}
+
+.invalidHost{
+    border: solid 2px red;
+}
+
+.invalidInterest{
+    border: solid 1px red;
+    border-radius: 3px;
+}
+
+.invalidPhoto{
+    border: solid 1px red;
+    border-radius: 90px;
+}

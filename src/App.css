@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #271748;
+}
+
+header {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3em 3em 0 3em;
+}
+
+header button {
+  background-color: inherit;
+  border: none;
+}
+
+p {
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #F834A9;
+}
+
+footer {
+  background-color: #140A28;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  display: none;
+}
+
+.grid-horizontal-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+
+.flexbox-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.width-50 {
+  width: 40vw;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.larger-text {
+  font-size: 1.4em;
+}
